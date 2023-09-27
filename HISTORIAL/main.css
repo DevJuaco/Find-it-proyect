@@ -1,0 +1,129 @@
+* {
+    /* border: 1px dotted black; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffaf7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.descripcion {
+    font-family: cursive;
+}
+
+/* Estilos para dispositivos con una resolución de hasta 600px */
+@media (max-width: 600px) {
+    .header-encabezado {
+        background-color: #c26067;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 1vw;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+
+    .img-foto-copia {
+        display: flex;
+        height: 26vw;
+        padding-left: 12vw;
+    }
+
+    .card-1 {
+        display: flex;
+        background-color: #fcede9;
+        border-radius: 2vw;
+    }
+    
+
+    .card-2 {
+        display: flex;
+        background-color: #fcede9;
+     border-radius: 2vw;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 14px;
+        background-color: #c26067;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 1rem;
+    }
+
+    footer {
+        background-color: #c26067;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+/* Estilos para dispositivos con una resolución mayor a 600px */
+@media (min-width: 601px) {
+    .header-encabezado {
+        background-color: #c26067;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 1vw;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 16px;
+        background-color: #c26067;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 1rem;
+    }
+
+    button:hover {
+        background-color:#fffaf7 ;
+    }
+
+    .card-1 {
+        display: flex;
+        background-color: #fcede9;
+        border-radius: 2vw;
+    }
+    
+
+    .card-2 {
+        display: flex;
+        background-color: #fcede9;
+     border-radius: 2vw;
+    }
+    
+    
+
+    .img-foto-copia {
+        display: flex;
+        height: 26vw;
+        padding-left: 12vw;
+    }
+
+    footer {
+        background-color: #c26067;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+}
